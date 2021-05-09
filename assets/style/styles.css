@@ -40,7 +40,6 @@ background-color: rgb(53, 53, 53);
     justify-content:space-evenly;
     margin:5px 5px 5px 5px;
     background-color:rgb(53, 53, 53);
-
 }
 
 .upperRow {
@@ -48,34 +47,56 @@ background-color: rgb(53, 53, 53);
     flex-wrap:wrap;
     height:250px;
     width:100vw;
-    background-color: green;
+    /*background-color: green;*/
     justify-content:space-evenly;
     }
 
 .upperRow > div {
+    display:flex;
+    justify-content:center;
     height: 240px;
-    width: 300px;
-    background-color: grey;  
+    width: 350px;
+    background-color: grey;
 }
 
 .lowerRow {
     display:flex;
-    display:flex;
     flex-wrap:wrap;
-    height:250px;
+    height:325px;
     width:100vw;
-    background-color: green;
+    /*background-color: blue;*/
     justify-content:space-evenly;
 }
 
 .lowerRow > div {
-    height: 240px;
-    width: 250px;
-    background-color: grey;  
+    display:flex;
+    justify-content:center;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(167, 59, 59); 
+    z-index: 1;
 }
 
 .titleBox {
-    height:15px;
-    width:100px;
+    height:40px;
+    width:325px;
+    justify-content:space-around;
+    background-color:honeydew;
+    position:relative;
+    margin-bottom:180px;
+    margin-top:10px;
+    border-radius:5px;
+    z-index: 3;
+}
 
+.titleBox2 {
+    height:80px;
+    width:325px;
+    justify-content:space-around;
+    background-color:honeydew;
+    position:relative;
+    margin-bottom:240px;
+    margin-top:10px;
+    border-radius:5px;
+    z-index: 3;
 }
