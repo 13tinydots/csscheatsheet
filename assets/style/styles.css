@@ -40,17 +40,42 @@ background-color: rgb(53, 53, 53);
     justify-content:space-evenly;
     margin:5px 5px 5px 5px;
     background-color:rgb(53, 53, 53);
-    ;
+
 }
 
 .upperRow {
+    display:flex;
+    flex-wrap:wrap;
     height:250px;
     width:100vw;
     background-color: green;
-}
+    justify-content:space-evenly;
+    }
 
 .upperRow > div {
-    height:240px;
-    width: 190px;
-    background-color: grey;
+    height: 240px;
+    width: 300px;
+    background-color: grey;  
+}
+
+.lowerRow {
+    display:flex;
+    display:flex;
+    flex-wrap:wrap;
+    height:250px;
+    width:100vw;
+    background-color: green;
+    justify-content:space-evenly;
+}
+
+.lowerRow > div {
+    height: 240px;
+    width: 250px;
+    background-color: grey;  
+}
+
+.titleBox {
+    height:15px;
+    width:100px;
+
 }
